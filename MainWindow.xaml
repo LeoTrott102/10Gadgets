@@ -1,0 +1,42 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:10Gadgets"
+        mc:Ignorable="d"
+        Title="10Gadgets Control Panel" Height="450" Width="800" ResizeMode="NoResize" Background="#FF34705A">
+    <Grid RenderTransformOrigin="0.481,0.508">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="179*"/>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="378*"/>
+            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="55*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="gs_usm" Content="Usage Meter" Grid.Column="2" HorizontalAlignment="Left" Margin="227,90,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Colours" HorizontalAlignment="Left" Margin="27.043,19,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="col_red" Content="" HorizontalAlignment="Left" Margin="23,50.96,0,0" VerticalAlignment="Top" Width="20" Background="Red"/>
+        <Button x:Name="col_grn" Content="" HorizontalAlignment="Left" Margin="60,50.96,0,0" VerticalAlignment="Top" Width="20" Background="#FF46FF00"/>
+        <Button x:Name="col_blu" Content="" HorizontalAlignment="Left" Margin="100,50.96,0,0" VerticalAlignment="Top" Width="20" Background="#FF0017FF"/>
+        <Button x:Name="col_yel" Content="" HorizontalAlignment="Left" Margin="143,50.96,0,0" VerticalAlignment="Top" Width="20" Background="#FFE8FF00"/>
+        <Button x:Name="col_drkred" Content="" HorizontalAlignment="Left" Margin="23,90,0,0" VerticalAlignment="Top" Width="20" Background="#FFDE3232"/>
+        <Button x:Name="gs_shw" Content="Slideshow" Grid.Column="2" HorizontalAlignment="Left" Margin="227,130.5,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="col_drkgrn" Content="" HorizontalAlignment="Left" Margin="60,90,0,0" VerticalAlignment="Top" Width="20" Background="#FF79DC40"/>
+        <Button x:Name="col_drkblu" Content="" HorizontalAlignment="Left" Margin="100,90,0,0" VerticalAlignment="Top" Width="20" Background="#FF3B41BB"/>
+        <Button x:Name="col_drkyel" Content="" HorizontalAlignment="Left" Margin="143,90,0,0" VerticalAlignment="Top" Width="20" Background="#FFFFAE00"/>
+        <Label Content="Gadget Preview" Grid.Column="2" HorizontalAlignment="Left" Margin="-0.001,19,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Image x:Name="gp_img" HorizontalAlignment="Left" Height="100" Margin="0,49.96,0,0" VerticalAlignment="Top" Width="143" Grid.Column="2"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Margin="60.39,159.96,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button x:Name="gs_cal" Content="Calendar" Grid.Column="2" HorizontalAlignment="Left" Margin="227,49.96,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Gadget Selector" Grid.Column="2" HorizontalAlignment="Left" Margin="226.999,19,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="gs_clc" Content="Calculator" Grid.Column="2" HorizontalAlignment="Left" Margin="317.524,90,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
+        <Button x:Name="gs_tas" Grid.ColumnSpan="2" Content="Task Manager" Grid.Column="2" HorizontalAlignment="Left" Margin="317.524,50.96,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="gs_med" Grid.ColumnSpan="2" Content="Media Player" Grid.Column="2" HorizontalAlignment="Left" Margin="317.524,130.5,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="gs_new" Content="News" Grid.Column="3" HorizontalAlignment="Left" Margin="34.849,50.96,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="gs_web" Content="Web Browser" Grid.Column="3" HorizontalAlignment="Left" Margin="34.849,90,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Game Centre" Grid.Column="3" HorizontalAlignment="Left" Margin="34.849,130.5,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Add Gadgets" Grid.Column="4" HorizontalAlignment="Left" Margin="0,50.96,0,0" VerticalAlignment="Top" Width="44.931" Height="99"/>
+
+    </Grid>
+</Window>

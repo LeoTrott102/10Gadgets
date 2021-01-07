@@ -1,0 +1,19 @@
+﻿<Window x:Class="MediaPlayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10Gadgets"
+        mc:Ignorable="d"
+        Title="Media Player" Height="311.538" Width="517.611" WindowStyle="ToolWindow" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Media Player" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="59.96" Width="229.41" FontSize="36" Grid.ColumnSpan="2"/>
+        <Button Content="►" HorizontalAlignment="Left" Margin="10,237.578,0,0" VerticalAlignment="Top" Width="34" Height="35.96" FontFamily="Arial" FontSize="16"/>
+        <Button Content="| |" HorizontalAlignment="Left" Margin="58,237.578,0,0" VerticalAlignment="Top" Width="34" Height="35.96" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
